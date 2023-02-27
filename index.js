@@ -11,7 +11,9 @@ app.use(express.json())
 
 app.use(express.json()) //to read the request body
 
+
 // app.get('/', (req, res) => {
+     res.setHeader("Access-Control-Allow-Credentials","true");
 //   res.send('Hello World!')
 // })
 
