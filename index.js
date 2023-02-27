@@ -24,5 +24,5 @@ app.use('/api/auth', require('./routes/auth'))
 
 
 app.listen(port, () => {
-  console.log(`iNoteBook backend listening art http://localhost: ${port}`)
+ 
 })
